@@ -5,13 +5,13 @@
 
   <groupId>io.beker</groupId>
   <artifactId>my-demonstration</artifactId>
-  <version>1.9</version>
+  <version>1.10-SNAPSHOT</version>
   <description>This package is mine and mine alone</description>
   <name>demo-artifact</name>
 
   <scm>
     <developerConnection>scm:git:https://github.com/abdullahbeker/demo-maven.git</developerConnection>
-    <tag>my-demonstration-1.9</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <properties>
