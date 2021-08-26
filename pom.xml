@@ -42,7 +42,7 @@
     <repository>
       <id>repsy</id>
       <name>My Private Maven Repository on Repsy</name>
-      <url>http://localhost:8080/mvn/fresh/happier</url>
+      <url>https://repo-staging.repsy.io/mvn/beker/default</url>
     </repository>
   </distributionManagement>
 
