@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>io.beker</groupId>
+  <artifactId>my-demonstration</artifactId>
+  <version>1.9</version>
+  <description>This package is mine and mine alone</description>
+  <name>demo-artifact</name>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.7</maven.compiler.source>
+    <maven.compiler.target>1.7</maven.compiler.target>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.11</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+
+  <!--  <distributionManagement>-->
+  <!--    <repository>-->
+  <!--      <id>repsy</id>-->
+  <!--      <name>My Private Maven Repository on Repsy</name>-->
+  <!--      <url>https://repo.repsy.io/mvn/seyyit52/default</url>-->
+  <!--    </repository>-->
+  <!--  </distributionManagement>-->
+
+  <distributionManagement>
+    <repository>
+      <id>repsy</id>
+      <name>My Private Maven Repository on Repsy</name>
+      <url>http://localhost:8080/mvn/fresh/happier</url>
+    </repository>
+  </distributionManagement>
+
+</project>
