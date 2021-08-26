@@ -6,9 +6,13 @@
 
   <groupId>io.beker</groupId>
   <artifactId>my-demonstration</artifactId>
-  <version>1.9</version>
+  <version>1.9-SNAPSHOT</version>
   <description>This package is mine and mine alone</description>
   <name>demo-artifact</name>
+
+  <scm>
+    <developerConnection>scm:git:https://github.com/abdullahbeker/demo-maven.git</developerConnection>
+  </scm>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -41,5 +45,14 @@
       <url>http://localhost:8080/mvn/fresh/happier</url>
     </repository>
   </distributionManagement>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-release-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </build>
 
 </project>
