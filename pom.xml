@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>io.beker</groupId>
   <artifactId>my-demonstration</artifactId>
-  <version>1.9-SNAPSHOT</version>
+  <version>1.9</version>
   <description>This package is mine and mine alone</description>
   <name>demo-artifact</name>
 
   <scm>
     <developerConnection>scm:git:https://github.com/abdullahbeker/demo-maven.git</developerConnection>
+    <tag>my-demonstration-1.9</tag>
   </scm>
 
   <properties>
